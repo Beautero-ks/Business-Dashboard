@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notification-tab > .active{
+    @apply hover:text-blue-500 border-b-blue-500 text-blue-500;
+}
+.order-tab > .active{
+    @apply bg-blue-500 text-white hover:text-white;
+}
+.main.active{
+    @apply md:w-full md:ml-0;
+}
